@@ -44,12 +44,30 @@ const AuthProvider = ({ children }) => {
     return signOut(auth);
   };
 
-  // Update Profile
-  const updateUserProfile = (name, photo) => {
-    return updateProfile(auth.currentUser, {
-      displayName: name,
-      photoURL: photo,
-    });
+  const updateUserProfile = async (name, photo) => {
+    
+    try {
+      await updateProfile(auth.currentUser, {
+        displayName: name,
+        photoURL: photo,
+      });
+
+      
+      const updatedUser = {
+        ...auth.currentUser,
+        displayName: name,
+        photoURL: photo,
+      };
+      setUser(updatedUser);
+
+      
+      setLoading(false);
+
+      return updatedUser;
+    } catch (error) {
+      console.error("Error updating profile:", error);
+      throw error;
+    }
   };
 
   // Forgot Password

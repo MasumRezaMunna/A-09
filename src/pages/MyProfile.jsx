@@ -4,9 +4,24 @@ import toast from "react-hot-toast";
 import { FaUser, FaEnvelope, FaImage } from "react-icons/fa";
 
 const MyProfile = () => {
-  const { user, updateUserProfile, setLoading } = useAuth();
+  const { user, updateUserProfile, setLoading, loading } = useAuth();
 
-  // State for the update form
+  if (loading) {
+    return (
+      <div className="h-screen flex items-center justify-center text-xl">
+        Loading Profile...
+      </div>
+    );
+  }
+
+  if (!user) {
+    return (
+      <div className="h-screen flex items-center justify-center text-xl">
+        Please log in to view profile.
+      </div>
+    );
+  }
+
   const [name, setName] = useState(user.displayName || "");
   const [photo, setPhoto] = useState(user.photoURL || "");
 
@@ -18,9 +33,8 @@ const MyProfile = () => {
       .then(() => {
         toast.success("Profile updated successfully!");
         setLoading(false);
-        // Force a reload of the window to show updated info in navbar,
-        // as onAuthStateChanged doesn't re-fire on updateProfile.
-        window.location.reload();
+        
+        
       })
       .catch((err) => {
         toast.error(err.message);
