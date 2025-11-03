@@ -1,15 +1,17 @@
-
-import './App.css'
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/shared/Navbar";
+import Footer from "./components/shared/Footer";
 
 function App() {
-
   return (
-    <>
-     
-      <h1>Vite + React</h1>
-      
-    </>
-  )
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <main className="flex-grow">
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;

@@ -8,7 +8,7 @@
     "availableStock": 10,
     "careLevel": "Easy",
     "description": "A hardy plant that purifies indoor air and thrives in low light. It's known for its stiff, upright leaves and is incredibly resilient, making it perfect for beginners.",
-    "image": "https://i.ibb.co/6ZfK2Gk/snake-plant.png",
+    "image": "https://i.ibb.co.com/rG9JV9LR/snake-Plant.png",
     "providerName": "UrbanGreen Studio"
   },
   {
@@ -20,7 +20,7 @@
     "availableStock": 5,
     "careLevel": "Medium",
     "description": "Famous for its natural leaf-holes, this plant, also known as the 'Swiss Cheese Plant,' brings a tropical, jungly vibe to any room. It loves to climb.",
-    "image": "https://i.ibb.co/jGGYKfW/monstera.png",
+    "image": "https://i.ibb.co.com/1pxyFXg/monstera.png",
     "providerName": "The Leafy Corner"
   },
   {
@@ -32,7 +32,7 @@
     "availableStock": 20,
     "careLevel": "Easy",
     "description": "A fast-growing vine that's virtually indestructible. It can be grown in hanging baskets or trained to climb, and it thrives in a variety of lighting conditions.",
-    "image": "https://i.ibb.co/VvzCH1Y/pothos.png",
+    "image": "https://i.ibb.co.com/svc7TKgd/pothos.png",
     "providerName": "UrbanGreen Studio"
   },
   {
@@ -44,7 +44,7 @@
     "availableStock": 8,
     "careLevel": "Easy",
     "description": "The Zamioculcas zamiifolia is the perfect plant for forgetful owners. It's drought-tolerant and accepts low-light conditions without complaint.",
-    "image": "https://i.ibb.co/3s6t4R6/zz-plant.png",
+    "image": "https://i.ibb.co.com/wFd0GqT7/zz.png",
     "providerName": "Green Gables"
   },
   {
@@ -56,7 +56,7 @@
     "availableStock": 3,
     "careLevel": "Hard",
     "description": "A design community favorite, the Fiddle Leaf Fig features large, violin-shaped leaves. It's a bit fussy, demanding bright, filtered light and a stable environment.",
-    "image": "https://i.ibb.co/tZ5752x/fiddle-leaf.png",
+    "image": "https://i.ibb.co.com/VdZ5XSR/fiddle.png",
     "providerName": "The Leafy Corner"
   },
   {
@@ -68,7 +68,7 @@
     "availableStock": 15,
     "careLevel": "Easy",
     "description": "A classic and graceful plant that produces 'spiderettes,' or baby plants, that dangle from the mother plant. It's non-toxic to pets and great at cleaning the air.",
-    "image": "https://i.ibb.co/DMLG3gc/spider-plant.png",
+    "image": "https://i.ibb.co.com/VYKrv1sv/spider.png",
     "providerName": "Green Gables"
   }
 ]
