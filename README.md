@@ -1,16 +1,19 @@
-# React + Vite
+# 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Excited to share my new project 'GreenNest' which is  a complete Indoor Plant Care & Store web app.
 
-Currently, two official plugins are available:
+'GreenNest' holo indoor plant lovers der jonno ekta elegant Single-Page Application (SPA). Users ra ekhane plant details dekhte, care guide porte, ebong expert consultation book korte paren.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔑 Key Features:
 
-## React Compiler
+- Full Firebase Authentication (Email/Password, Google Sign-In, Password Reset)
+- Protected Routes (Login na korle Plant Details page e redirect)
+- Dynamic plant data fetching from JSON
+- User Profile Management (Name/Photo Update)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Tech Stack:
+React.js | Firebase | Tailwind CSS | Swiper.js
 
-## Expanding the ESLint configuration
+Ei project er maddhome Firebase authentication and protected routing-er opor bhalo ekta skill develop hoyeche.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 Live Site:  https://aesthetic-tanuki-1f25c0.netlify.app/
